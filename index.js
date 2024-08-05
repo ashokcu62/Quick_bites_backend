@@ -8,8 +8,8 @@ const app = express()
 const port = 3000
 
 app.use(cors({
-  // origin: ['http://localhost:5173'],
-  origin: "*",
+   origin: ["https://quick-bites-frontend.vercel.app"],
+ // origin: "*",
   methods: ['GET', 'POST', 'PATCH', 'DELETE'],
   credentials: true,
 
